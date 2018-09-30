@@ -8,10 +8,10 @@ cache:
     - "node_modules"
 sudo: false
 install:
-   npm install
+  - "npm install"
 script:
 
-  - npm test
+  - "npm test"
 deploy:
   - provider: script
     skip_cleanup: true
